@@ -1,23 +1,23 @@
 .template1 {
-   
+
     .container {
         display: flex;
         max-width: 976px;
         justify-content: space-between;
         margin: 50px auto;
+        flex-wrap: wrap;
+    }
 
-    }
-    .image-container {
-     
-    }
     .image-container img {
         max-width: 373px;
         height: auto;
         display: block;
     }
+
     .text-container {
         max-width: 570px;
     }
+
     .main-header {
         font-family: var(--font-cormorant_garamond);
         font-size: 72px;
@@ -25,31 +25,37 @@
         margin-top: 64px;
         margin-left: -117px;
     }
+
     .cursive {
         font-family: var(--font-cormorant_garamond);
         font-size: 23px;
         font-style: italic;
-        margin: 6px 0 60px 4px; 
+        margin: 6px 0 60px 4px;
         font-weight: 600;
     }
+
     h2 {
         font-size: 24px;
         font-weight: 600;
         font-family: var(--font-proza_libre);
         line-height: 42px;
     }
+
     .content {
         font-family: var(--font-proza_libre);
         margin-bottom: 20px;
+
         p {
             font-size: 18px;
             font-weight: 600;
             line-height: 32px;
         }
+
         .p1 {
             margin: 47px 0 32px;
         }
     }
+
     .images-grid {
         max-width: 1190px;
         margin: auto;
@@ -59,13 +65,15 @@
         gap: 16px;
         row-gap: 25px;
         margin-bottom: 50px;
+
         img {
             width: 386px;
             max-width: 386px;
             height: 498px;
         }
-       
+
     }
+
     .interests {
         font-family: var(--font_proza-libre);
         max-width: 1190px;
@@ -75,10 +83,12 @@
         flex-wrap: wrap;
         font-size: 19px;
         font-weight: 600;
+
         p {
             margin-bottom: 20px;
             line-height: 31px;
         }
+
         h3 {
             font-size: 50px;
             font-family: var(--font-cormorant_garamond);
@@ -86,21 +96,25 @@
             line-height: 1;
             max-width: 260px;
         }
+
         h5 {
-      
+
             text-transform: uppercase;
         }
+
         .col {
-            
-            width:calc(100% / 3);
+
+            width: calc(100% / 3);
+
             @media (max-width: 768px) {
                 width: 100%;
             }
         }
+
         .m-top-50 {
             margin-top: 87px;
             padding-right: 20px;
         }
     }
-  
+
 }

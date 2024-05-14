@@ -2,7 +2,7 @@ import './template1.scss'
 
 export default function Template1() {
   return (
-    <main className="template1">
+    <div className="template1">
 
       <div className="container">
         <div className="image-container">
@@ -42,6 +42,6 @@ export default function Template1() {
           <h5>Obsession</h5>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
