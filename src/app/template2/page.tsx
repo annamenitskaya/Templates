@@ -13,7 +13,7 @@ export default function Template2() {
           <div className="text-container">
             <div className='main-header'>
               <h1>Hi,</h1>
-              <h1>I'm Dewi</h1>
+              <h1>I&apos;m Dewi</h1>
             </div>
             <div className="content">
               <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut </h2>
