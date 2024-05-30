@@ -120,18 +120,75 @@ export default function Template2() {
           </div>
           <TestimonialsCarousel>
             <div className='testimonials-card'>
-              Testimonial Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.
+              Testimonial1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.
             </div>
             <div className='testimonials-card'>
               Testimonial2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.
             </div>
             <div className='testimonials-card'>
-              Testimonial2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.
+              Testimonial3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.
             </div>
           </TestimonialsCarousel>
         </div>
+        <div className='jobs-wrapper'>
+          <div className='column'>
+            <div className='job-wrapper'>
+              <div className='logo'>Logo</div>
+              <div className='info'>
+                <div className='dates'>Start - present</div>
+                <div className="title">Job Title</div>
+                <div className="location">Location</div>
+              </div>
+            </div>
+            <div className='job-wrapper'>
+              <div className='logo'>Logo</div>
+              <div className='info'>
+                <div className='dates'>Start - present</div>
+                <div className="title">Job Title</div>
+                <div className="location">Location</div>
+              </div>
+            </div>
+            <div className='job-wrapper'>
+              <div className='logo'>Logo</div>
+              <div className='info'>
+                <div className='dates'>Start - present</div>
+                <div className="title">Job Title</div>
+                <div className="location">Location</div>
+              </div>
+            </div>
+          </div>
+          <div className='separator'></div>
+          <div className='column'>
+            <div className='job-wrapper'>
+              <div className='logo'>Logo</div>
+              <div className='info'>
+                <div className='dates'>Start - present</div>
+                <div className="title">Job Title</div>
+                <div className="location">Location</div>
+              </div>
+            </div>
+            <div className='job-wrapper'>
+              <div className='logo'>Logo</div>
+              <div className='info'>
+                <div className='dates'>Start - present</div>
+                <div className="title">Job Title</div>
+                <div className="location">Location</div>
+              </div>
+            </div>
+            <div className='job-wrapper'>
+              <div className='logo'>Logo</div>
+              <div className='info'>
+                <div className='dates'>Start - present</div>
+                <div className="title">Job Title</div>
+                <div className="location">Location</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
-    </div >
+
+    </div>
+
   )
 }
